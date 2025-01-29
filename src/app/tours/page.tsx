@@ -1,4 +1,3 @@
-import { Icon } from "@/components/Icon";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -12,7 +11,6 @@ export default function ToursPage() {
     >
       <header className="max-w-4xl mx-auto mb-12">
         <div className="flex items-center justify-center gap-3 mb-6">
-          <Icon name="tour" className="w-8 h-8 text-pink-600" />
           <h1 className="text-4xl font-bold text-gray-800">
             Passeios em Orlando
           </h1>
